@@ -1,2 +1,3 @@
 # spring-test
-Spring related test demo.
+spring-configuration-test
+spring-import-test
