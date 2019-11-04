@@ -11,6 +11,7 @@
     <modules>
         <module>spring-import-test</module>
         <module>spring-configuration-test</module>
+        <module>spring-aop-test</module>
     </modules>
 
     <dependencies>
