@@ -3,32 +3,32 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>spring-demo</artifactId>
+        <artifactId>spring-test</artifactId>
         <groupId>com.evan</groupId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spring-aop-test</artifactId>
+    <artifactId>spring-configuration-test</artifactId>
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
-            <version>5.1.1.RELEASE</version>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+            <version>3.5.1</version>
         </dependency>
 
         <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-aop</artifactId>
-            <version>5.1.1.RELEASE</version>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis-spring</artifactId>
+            <version>2.0.2</version>
         </dependency>
 
         <dependency>
-            <groupId>org.aspectj</groupId>
-            <artifactId>aspectjweaver</artifactId>
-            <version>1.9.4</version>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.16</version>
         </dependency>
-
     </dependencies>
+
 </project>
