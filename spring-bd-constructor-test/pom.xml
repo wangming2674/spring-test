@@ -9,5 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spring-import-test</artifactId>
+    <artifactId>spring-bd-constractor-test</artifactId>
+
+
 </project>
