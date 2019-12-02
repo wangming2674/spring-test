@@ -12,6 +12,7 @@
         <module>spring-import-test</module>
         <module>spring-configuration-test</module>
         <module>spring-aop-test</module>
+        <module>spring-bd-constructor-test</module>
     </modules>
 
     <dependencies>
