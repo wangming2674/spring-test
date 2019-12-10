@@ -1,0 +1,36 @@
+package com.evan.imitate.event;
+
+/**
+ * @ClassName FileUploadEvent
+ * @Description
+ * @Author EvanWang
+ * @Version 1.0.0
+ * @Date 2019/12/9 21:37
+ */
+public class FileUploadEvent extends ApplicationEvent {
+
+    private int fileSize;
+
+    private int readSize;
+
+    public FileUploadEvent(int fileSize, int readSize) {
+        this.fileSize = fileSize;
+        this.readSize = readSize;
+    }
+
+    public int getFileSize() {
+        return fileSize;
+    }
+
+    public void setFileSize(int fileSize) {
+        this.fileSize = fileSize;
+    }
+
+    public int getReadSize() {
+        return readSize;
+    }
+
+    public void setReadSize(int readSize) {
+        this.readSize = readSize;
+    }
+}

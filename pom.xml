@@ -13,6 +13,7 @@
         <module>spring-configuration-test</module>
         <module>spring-aop-test</module>
         <module>spring-bd-constructor-test</module>
+        <module>spring-eventlistener-test</module>
     </modules>
 
     <dependencies>
