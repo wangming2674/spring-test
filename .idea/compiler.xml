@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-eventlistener-test" />
         <module name="spring-bd-constructor-test" />
         <module name="spring-configuration-test" />
         <module name="spring-import-test" />
