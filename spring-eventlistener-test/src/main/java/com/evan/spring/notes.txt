@@ -1,7 +1,0 @@
-1、spring 如何得知有哪些监听器？
-通过2个步骤：1.从Bean工厂拿到所有ApplicationListener类型的Bean.
-            2.扫描所有带@EventListener
-
-2、spring如何发布事件？
-大逻辑上通过2个步骤：  1.判断是否有监听器对该事件感兴趣
-                      2.调用监听器方法

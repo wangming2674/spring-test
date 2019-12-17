@@ -13,6 +13,7 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class WriteBlogListenerAnnotation {
+    //如果传入的参数不是event类型，是Object的时候，会对任意类型感兴趣。
     @EventListener
     public void annotationListen(WriteBlogEvent writeBlogEvent) {
         String name = writeBlogEvent.getName();
