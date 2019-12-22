@@ -14,6 +14,8 @@
         <module>spring-aop-test</module>
         <module>spring-bd-constructor-test</module>
         <module>spring-eventlistener-test</module>
+        <module>spring-dependson-test</module>
+        <module>spring-lazy-test</module>
     </modules>
 
     <dependencies>
