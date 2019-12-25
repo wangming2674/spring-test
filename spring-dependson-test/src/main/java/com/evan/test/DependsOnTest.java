@@ -1,9 +1,7 @@
 package com.evan.test;
 
 import com.evan.config.AppConfig;
-import com.evan.service.EvanService;
-import com.evan.service.PersonService;
-import com.evan.service.TomService;
+import com.evan.service.AMonitor;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
@@ -16,8 +14,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class DependsOnTest {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext ac = new AnnotationConfigApplicationContext(AppConfig.class);
-        ac.getBean(PersonService.class);
-        ac.getBean(EvanService.class);
-        ac.getBean(TomService.class);
+        ac.getBean(AMonitor.class);
+        ac.getBean(AMonitor.class);
     }
 }
