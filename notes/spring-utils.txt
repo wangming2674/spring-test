@@ -1,2 +1,5 @@
+直接去Spring的util包下找。
 1、AnnotationUtil 获取嵌套注解
 2、ResourceUtils 获取文件 不要乱用，中文有编码问题
+3、ClassUtils.isPresent 判断类是否存在，等等...
+4、StopWatch 计时器帮助类，记录方法执行时间

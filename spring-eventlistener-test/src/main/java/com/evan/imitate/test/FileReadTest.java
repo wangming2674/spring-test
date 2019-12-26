@@ -2,7 +2,6 @@ package com.evan.imitate.test;
 
 import com.evan.imitate.listener.FileUploadListener;
 import com.evan.imitate.manage.ListenerManage;
-import com.evan.imitate.util.FileListener;
 
 import java.io.File;
 import java.io.FileInputStream;

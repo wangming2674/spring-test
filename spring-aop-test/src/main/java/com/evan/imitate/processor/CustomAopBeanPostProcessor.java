@@ -1,7 +1,7 @@
 package com.evan.imitate.processor;
 
-import com.evan.imitate.service.UserService;
 import com.evan.imitate.proxy.CglibUtil;
+import com.evan.imitate.service.UserService;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 

@@ -2,7 +2,6 @@ package com.evan.spring.event;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.event.ApplicationContextEvent;
-import org.springframework.context.event.ContextStartedEvent;
 
 /**
  * @ClassName MyEvent
@@ -28,5 +27,7 @@ public class WriteBlogEvent extends ApplicationContextEvent {
     public String getAddress() {
         return address;
     }
+
+    //可能event里面还有些其他的方法 做其他的事
 
 }

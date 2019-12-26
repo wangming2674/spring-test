@@ -14,6 +14,7 @@ import java.util.List;
  * @Version 1.0.0
  * @Date 2019/12/9 20:44
  */
+//其实可以通过@Bean将我们自定义的监听器和监听器管理器加入到spring容器，实现全部自定义
 //事件管理器
 public class ListenerManage {
 
