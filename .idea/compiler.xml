@@ -13,6 +13,7 @@
         <module name="spring-import-test" />
         <module name="spring-aop-test" />
         <module name="spring-configuration-test" />
+        <module name="spring-registerSingleton" />
         <module name="spring-lazy-test" />
       </profile>
     </annotationProcessing>

@@ -16,6 +16,7 @@
         <module>spring-eventlistener-test</module>
         <module>spring-dependson-test</module>
         <module>spring-lazy-test</module>
+        <module>spring-registerSingleton</module>
     </modules>
 
     <dependencies>
